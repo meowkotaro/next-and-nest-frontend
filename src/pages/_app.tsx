@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // Import styles of packages that you've installed.
 // All packages except `@mantine/hooks` require styles imports
 import '../styles/globals.css'
@@ -56,3 +57,11 @@ export default function App({ Component, pageProps }: AppProps) {
     </QueryClientProvider>
   );
 }
+=======
+import '@/styles/globals.css'
+import type { AppProps } from 'next/app'
+
+export default function App({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />
+}
+>>>>>>> Stashed changes
